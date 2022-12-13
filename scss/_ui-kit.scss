@@ -1,0 +1,28 @@
+@import "./mixins.scss";
+
+.btn {
+    @include settingFonts(GamesDaymariusv2, 3.2rem, 400);
+    line-height: 3.2rem;
+    padding-top: 1.5rem;
+    padding-right: 3rem;
+    padding-bottom: 1.5rem;
+    padding-left: 3rem;
+}
+
+.btn_green {
+    background-color: #5A6934;
+    color: white;
+    letter-spacing: 00.2rem;
+}
+
+.btn_yellow {
+    background-color: #E5B42F;
+    color: black;
+    letter-spacing: 00.2rem;
+}
+
+.btn_brown {
+    background-color: #603916;
+    color: white;
+    letter-spacing: 00.2rem;
+}
