@@ -1,9 +1,10 @@
 .choose {
   display: flex;
+  justify-content: space-between;
 }
 
 .kitchen {
-  width: 50%;
+  width: 49.5%;
   height: 54rem;
   position: relative;
 }
@@ -14,7 +15,7 @@
 }
 
 .bar {
-  width: 50%;
+  width: 49.5%;
   height: 54rem;
   position: relative;
 }

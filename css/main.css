@@ -173,6 +173,10 @@ body {
   margin: 0 auto;
 }
 
+.not_have_on_maket {
+  background-color: grey;
+}
+
 .header {
   background-color: white;
   height: 12.8rem;
