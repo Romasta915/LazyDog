@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/reserv.css">
     <title>LazyDog | Reserv</title>
 </head>
+
 <body>
     <header class="header">
         <div class="logo-wrapp">
@@ -55,7 +58,7 @@
         </nav>
         <nav class="header-nav_mobile" id="mobileNav">
             <button class="burger__close" id="burger__close">
-                <img src="./images/icons/burger-close.png" alt="#">
+                <img src="../images/icons/burger-close.png" alt="#">
             </button>
             <ul>
                 <a href="../pages/chose-menu.html">
@@ -86,7 +89,45 @@
         </nav>
     </header>
     <main>
-
+        <section class="page-reserv">
+            <div class="reserv-form">
+                <div class="reserv__form-title">Резервуй столик</div>
+                <label for="name">
+                    <div class="form-item">
+                        <div class="form-item__icon">
+                            <img src="../images/icons/brown_user.png" alt="#">
+                            <div>Ім'я</div>
+                        </div>
+                        <input type="text" id="name" placeholder="Ваше ім'я">
+                        <img class="grey-pencil" src="../images/icons/grey_pencil.png" alt="#">
+                    </div>
+                </label>
+                <label for="phone">
+                    <div class="form-item">
+                        <div class="form-item__icon">
+                            <img src="../images/icons/brown_phone.png" alt="#">
+                            <div>Телефон</div>
+                        </div>
+                        <input type="number" id="phone" placeholder="000 000 00 00">
+                        <img class="grey-pencil" src="../images/icons/grey_pencil.png" alt="#">
+                    </div>
+                </label>
+                <label for="massage">
+                    <div class="form-item">
+                        <div class="form-item__icon">
+                            <img src="../images/icons/brown_map_point.png" alt="#">
+                            <div>Повідомлення</div>
+                        </div>
+                        <input type="text" id="massage" placeholder="Напишіть ваші пабажання">
+                        <img class="grey-pencil" src="../images/icons/grey_pencil.png" alt="#">
+                    </div>
+                </label>
+                <input type="button" value="Надіслати ▶" class="btn btn_green contacts__form-btn">
+            </div>
+            <div class="page-reserv_img">
+                <img src="../images/reserv-1.png" alt="#">
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="footer__info">
@@ -131,4 +172,5 @@
         <div class="footer__copyright">© 2022 Lazy Dog Restaurants, LLC all rights reserved.</div>
     </footer>
 </body>
+
 </html>
