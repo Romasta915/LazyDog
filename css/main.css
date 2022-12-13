@@ -75,8 +75,7 @@ p {
 img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 button {
@@ -235,8 +234,7 @@ body {
 .menu-more .menu-more__bg {
   height: 100%;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: relative;
 }
 .menu-more .menu-more__title {
@@ -265,8 +263,7 @@ body {
 .reserve .reserve__bg {
   height: 74rem;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .reserve .reserve__title {
   position: absolute;
@@ -320,8 +317,7 @@ body {
 .merch .merch__img {
   width: 60%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .guests {
@@ -333,8 +329,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   z-index: -1;
 }
 .guests .guests__title {
@@ -399,8 +394,7 @@ body {
 .events .events__img {
   width: 40%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .about {
@@ -412,8 +406,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   z-index: -1;
 }
 .about .about__title {
@@ -441,8 +434,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   z-index: -1;
 }
 .blog .blog__title {
@@ -654,8 +646,7 @@ body {
     right: 1rem;
   }
   .header .burger img {
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     width: 2.1rem;
     height: 1.8rem;
   }
@@ -707,9 +698,8 @@ body {
     justify-content: center;
   }
   .header .header-nav_mobile .burger__close img {
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     width: 7rem;
     height: 7rem;
   }
-}/*# sourceMappingURL=main.css.map */
+}

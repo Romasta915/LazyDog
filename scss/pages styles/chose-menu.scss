@@ -1,0 +1,27 @@
+.choose {
+    display: flex;
+}
+
+.kitchen {
+    width: 50%;
+    height: 54rem;
+    position: relative;
+
+    .kitchen__btn {
+        position: absolute;
+        bottom: 3rem;
+        left: 3rem;
+    }
+}
+
+.bar {
+    width: 50%;
+    height: 54rem;
+    position: relative;
+
+    .bar__btn {
+        position: absolute;
+        bottom: 3rem;
+        left: 3rem;
+    }
+}
