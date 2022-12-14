@@ -1,0 +1,36 @@
+.guests-page .guests-page__title {
+  text-align: center;
+  font-family: CAT Stack;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 8.4rem;
+  padding-bottom: 4rem;
+}
+.guests-page .images {
+  padding: 0 6rem;
+}
+.guests-page .images .guest-image {
+  object-fit: cover;
+}
+.guests-page .images .guest-image:is(:nth-child(1), :nth-child(2), :nth-child(3), :nth-child(6)) {
+  width: 42rem;
+  height: 42rem;
+}
+.guests-page .images .guest-image:is(:nth-child(4)) {
+  width: 73.8rem;
+  height: 42rem;
+}
+.guests-page .images .guest-image:is(:nth-child(5), :nth-child(8)) {
+  width: 53rem;
+  height: 42rem;
+}
+.guests-page .images .guest-image:nth-child(7) {
+  width: 31rem;
+  height: 42rem;
+}
+.guests-page .btn-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7rem 0 8rem 0;
+}

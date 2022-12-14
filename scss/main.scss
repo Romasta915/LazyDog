@@ -7,6 +7,17 @@ $identation_btwSection: 0.3rem;
 $green1: #5a6934;
 $green2: #29593f;
 
+.not_have_in_maket {
+    @include settingFonts(GamesDaymariusv2, 6.4rem, 400);
+    line-height: 6.8rem;
+    padding-bottom: 7.3rem;
+    height: 30rem;
+    background-color: #f4b83e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 html {
     /* 10 / ( ширина макету 1440 / 100 ) = 0,69445  */
     font-size: 0.6944vw;
@@ -24,13 +35,9 @@ body {
 }
 
 .container {
-    // width: 142rem;
+    // width: 140rem;
     margin: 0 auto;
 }
-
-.not_have_on_maket {
-    background-color: grey;
-} 
 
 // !!!header
 .header {
@@ -40,6 +47,7 @@ body {
     z-index: 2;
     position: relative;
     letter-spacing: 00.2rem;
+    padding: 0 6.6rem;
 
     .logo-wrapp {
         width: 100%;
@@ -49,7 +57,8 @@ body {
         padding-top: 1.6rem;
     }
 
-    .burger, .header-nav_mobile {
+    .burger,
+    .header-nav_mobile {
         display: none;
     }
 
@@ -74,11 +83,18 @@ body {
             ul {
                 width: 100%;
                 display: flex;
-                justify-content: space-around;
+                justify-content: space-between;
                 @include settingFonts(Akrobat, 2.4rem, 700);
                 line-height: 3.2rem;
                 letter-spacing: 0.2px;
                 text-transform: uppercase;
+                li{
+                    transition: 0.5s;
+                }
+                li:hover {
+                    transition: 0.5s;
+                    border-bottom: 0.2rem solid black;
+                }
             }
         }
     }
@@ -527,5 +543,3 @@ body {
 
 // mobile
 @import "./mobile styles/_main-mobile.scss";
-
-

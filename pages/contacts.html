@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <title>LazyDog | Contacts</title>
 </head>
+
 <body>
     <header class="header">
         <div class="logo-wrapp">
@@ -55,7 +57,7 @@
         </nav>
         <nav class="header-nav_mobile" id="mobileNav">
             <button class="burger__close" id="burger__close">
-                <img src="./images/icons/burger-close.png" alt="#">
+                <img src="../images/icons/burger-close.png" alt="#">
             </button>
             <ul>
                 <a href="../pages/chose-menu.html">
@@ -73,7 +75,7 @@
                 <a href="../pages/about.html">
                     <li>про нас</li>
                 </a>
-                <a href="./pages/blog.html">
+                <a href="../pages/blog.html">
                     <li>блог</li>
                 </a>
                 <a href="../pages/events.html">
@@ -85,8 +87,70 @@
             </ul>
         </nav>
     </header>
-    <main>
 
+    <main>
+        <section class="contacts">
+            <div class="contacts__info">
+                <div class="contacts__title">Контакти</div>
+                <div class="info-item">
+                    <a href="tel:(096)-528-60-94">
+                        <img src="../images/icons/phone.png" alt="#">
+                        (096)-528-60-94
+                    </a>
+                </div>
+                <div class="info-item">
+                    <a href="#">
+                        <img src="../images/icons/map_point.png" alt="#">
+                        м. Львів вул. Краківська 9
+                    </a>
+                </div>
+                <div class="info-item">
+                    <a href="#">
+                        <img src="../images/icons/schedule.png" alt="#">
+                        Графік Роботи <br>
+                        <div class="grey_text">
+                            пн-пт 11:00-22:00;
+                            <br>
+                            сб-нд 11:00-22:00
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="contacts__form">
+                <div class="contacts__form-title">ФОРМА ЗВОРОТНЬОГО ЗВЯЗКУ</div>
+                <label for="name">
+                    <div class="form-item">
+                        <div class="form-item__icon">
+                            <img src="../images/icons/brown_user.png" alt="#">
+                            <div>Ім'я</div>
+                        </div>
+                        <input type="text" id="name" placeholder="Ваше ім'я">
+                        <img class="grey-pencil" src="../images/icons/grey_pencil.png" alt="#">
+                    </div>
+                </label>
+                <label for="phone">
+                    <div class="form-item">
+                        <div class="form-item__icon">
+                            <img src="../images/icons/brown_phone.png" alt="#">
+                            <div>Телефон</div>
+                        </div>
+                        <input type="number" id="phone" placeholder="000 000 00 00">
+                        <img class="grey-pencil" src="../images/icons/grey_pencil.png" alt="#">
+                    </div>
+                </label>
+                <label for="massage">
+                    <div class="form-item">
+                        <div class="form-item__icon">
+                            <img src="../images/icons/brown_map_point.png" alt="#">
+                            <div>Повідомлення</div>
+                        </div>
+                        <input type="text" id="massage" placeholder="Напишіть ваші пабажання">
+                        <img class="grey-pencil" src="../images/icons/grey_pencil.png" alt="#">
+                    </div>
+                </label>
+                <input type="button" value="Надіслати ▶" class="btn btn_green contacts__form-btn">
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="footer__info">
@@ -130,5 +194,8 @@
         </div>
         <div class="footer__copyright">© 2022 Lazy Dog Restaurants, LLC all rights reserved.</div>
     </footer>
+
+    <script src="../js/main.js"></script>
 </body>
+
 </html>
