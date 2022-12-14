@@ -1,0 +1,162 @@
+@import '../_mixins';
+
+.product-page {
+    padding-bottom: 8rem;
+    img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .back-cont {
+        position: relative;
+        height: 3.5rem;
+        width: 100%;
+
+        img {
+            height: 1.4rem;
+            width: 0.7rem;
+            position: absolute;
+            top: 0;
+            left: 6rem;
+            object-fit: cover;
+            cursor: pointer;
+        }
+    }
+}
+
+.product-content {
+    padding: 0 17.4rem;
+    display: flex;
+    justify-content: space-between;
+
+    .product__images {
+        width: 50%;
+        padding-right: 4rem;
+
+        .main-img_cont {
+            position: relative;
+
+            .main__img {
+                width: 52.4rem;
+                height: 52.4rem;
+                object-fit: cover;
+            }
+
+            .arrow-back {
+                width: 4.8rem;
+                height: 4.8rem;
+                position: absolute;
+                top: 25rem;
+                left: 0;
+                cursor: pointer;
+            }
+
+            .arrow-forward {
+                width: 4.8rem;
+                height: 4.8rem;
+                position: absolute;
+                top: 25rem;
+                right: 0;
+                transform: rotate(180deg);
+                cursor: pointer;
+            }
+        }
+
+
+        .more-img {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            .item {
+                width: 15rem;
+                height: 15rem;
+                padding-bottom: 2rem;
+                padding-right: 2rem;
+                object-fit: cover;
+            }
+
+        }
+    }
+
+    .product__info {
+        width: 40%;
+
+        .product-title {
+            @include settingFonts(CAT Stack, 2.6rem, 400);
+            line-height: 3.4rem;
+            letter-spacing: 00.4rem;
+            padding-bottom: 2.5rem;
+        }
+
+        .product-price {
+            @include settingFonts(Akrobat, 3.2rem, 600);
+            line-height: 3.8rem;
+            padding-bottom: 3rem;
+        }
+
+        .product-chooses {
+
+            .buttons {
+                display: flex;
+                padding-bottom: 1.2rem;
+
+                .btn {
+                    background-color: white;
+                    border: 1px solid black;
+                    @include settingFonts(Akrobat, 1.4rem, 600);
+                    line-height: 2.1rem;
+                    padding: 1rem 2rem;
+                    cursor: pointer;
+                }
+
+                .btn:not(:last-child) {
+                    margin-right: 1rem;
+                }
+
+                .active-btn {
+                    background-color: black;
+                    border: 1px solid white;
+                    color: white;
+                }
+            }
+
+            .title-color {
+                @include settingFonts(Akrobat, 1.6rem, 600);
+                line-height: 1.8rem;
+                padding-bottom: 1rem;
+                color: grey;
+            }
+
+            .title-size {
+                position: relative;
+                padding-bottom: 1rem;
+                @include settingFonts(Akrobat, 1.6rem, 600);
+                line-height: 1.8rem;
+
+                span {
+                    @include settingFonts(Akrobat, 1.6rem, 600);
+                    line-height: 1.8rem;
+                    color: grey;
+                    text-decoration: underline;
+
+                    position: absolute;
+                    top: 1rem;
+                    right: 0;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .product-text {
+            @include settingFonts(Akrobat, 1.8rem, 500);
+            line-height: 2.8rem;
+            padding-bottom: 3.3rem;
+        }
+    }
+}
+
+
+.btn-cont {
+    button {}
+}

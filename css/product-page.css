@@ -1,0 +1,143 @@
+.product-page {
+  padding-bottom: 8rem;
+}
+.product-page img {
+  width: 5rem;
+  height: 5rem;
+}
+.product-page .back-cont {
+  position: relative;
+  height: 3.5rem;
+  width: 100%;
+}
+.product-page .back-cont img {
+  height: 1.4rem;
+  width: 0.7rem;
+  position: absolute;
+  top: 0;
+  left: 6rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.product-content {
+  padding: 0 17.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.product-content .product__images {
+  width: 50%;
+  padding-right: 4rem;
+}
+.product-content .product__images .main-img_cont {
+  position: relative;
+}
+.product-content .product__images .main-img_cont .main__img {
+  width: 52.4rem;
+  height: 52.4rem;
+  object-fit: cover;
+}
+.product-content .product__images .main-img_cont .arrow-back {
+  width: 4.8rem;
+  height: 4.8rem;
+  position: absolute;
+  top: 25rem;
+  left: 0;
+  cursor: pointer;
+}
+.product-content .product__images .main-img_cont .arrow-forward {
+  width: 4.8rem;
+  height: 4.8rem;
+  position: absolute;
+  top: 25rem;
+  right: 0;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+.product-content .product__images .more-img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.product-content .product__images .more-img .item {
+  width: 15rem;
+  height: 15rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  object-fit: cover;
+}
+.product-content .product__info {
+  width: 40%;
+}
+.product-content .product__info .product-title {
+  font-family: CAT Stack;
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 3.4rem;
+  letter-spacing: 0.4rem;
+  padding-bottom: 2.5rem;
+}
+.product-content .product__info .product-price {
+  font-family: Akrobat;
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 3.8rem;
+  padding-bottom: 3rem;
+}
+.product-content .product__info .product-chooses .buttons {
+  display: flex;
+  padding-bottom: 1.2rem;
+}
+.product-content .product__info .product-chooses .buttons .btn {
+  background-color: white;
+  border: 1px solid black;
+  font-family: Akrobat;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.1rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+.product-content .product__info .product-chooses .buttons .btn:not(:last-child) {
+  margin-right: 1rem;
+}
+.product-content .product__info .product-chooses .buttons .active-btn {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+.product-content .product__info .product-chooses .title-color {
+  font-family: Akrobat;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+  padding-bottom: 1rem;
+  color: grey;
+}
+.product-content .product__info .product-chooses .title-size {
+  position: relative;
+  padding-bottom: 1rem;
+  font-family: Akrobat;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+}
+.product-content .product__info .product-chooses .title-size span {
+  font-family: Akrobat;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+  color: grey;
+  text-decoration: underline;
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  cursor: pointer;
+}
+.product-content .product__info .product-text {
+  font-family: Akrobat;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.8rem;
+  padding-bottom: 3.3rem;
+}
