@@ -1,0 +1,364 @@
+.menu-more {
+  height: 54rem;
+  width: 100%;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+  margin-bottom: 0.3rem;
+}
+.menu-more .menu-more__bg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.menu-more .menu-more__title {
+  position: absolute;
+  top: 10.3rem;
+  right: 17.2rem;
+  color: white;
+  font-family: GamesDaymariusv2;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  letter-spacing: 0.2rem;
+}
+.menu-more .menu-more__btn {
+  position: absolute;
+  top: 18.1rem;
+  right: 12.2rem;
+}
+
+.reserve {
+  height: 74rem;
+  position: relative;
+  background-color: white;
+  margin-bottom: 0.3rem;
+}
+.reserve .reserve__bg {
+  height: 74rem;
+  width: 100%;
+  object-fit: cover;
+}
+.reserve .reserve__title {
+  position: absolute;
+  bottom: 14.6rem;
+  left: 6rem;
+  color: white;
+  font-family: GamesDaymariusv2;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 6.6rem;
+  letter-spacing: 0.2rem;
+}
+.reserve .reserve__btn {
+  position: absolute;
+  bottom: 6.1rem;
+  left: 6rem;
+}
+
+.merch {
+  display: flex;
+  height: 54rem;
+  margin-bottom: 0.3rem;
+}
+.merch .merch__text-cont {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #5a6934;
+  padding: 0 3.7rem;
+}
+.merch .merch__title {
+  color: white;
+  font-family: GamesDaymariusv2;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  letter-spacing: 0.2rem;
+}
+.merch .merch__text {
+  color: white;
+  font-family: Akrobat;
+  font-size: 5.6rem;
+  font-weight: 500;
+  line-height: 6.7rem;
+  letter-spacing: 0.2rem;
+  padding: 3.7rem 0 3.7rem 0;
+}
+.merch .merch__img {
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.guests {
+  height: 54rem;
+  position: relative;
+  margin-bottom: 0.3rem;
+}
+.guests .guests__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.guests .guests__title {
+  color: white;
+  font-family: GamesDaymariusv2;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 6.8rem;
+  position: absolute;
+  top: 15rem;
+  right: 21.9rem;
+  letter-spacing: 0.2rem;
+}
+.guests .guests__btn {
+  position: absolute;
+  top: 30rem;
+  right: 15.9rem;
+}
+
+.events {
+  height: 54rem;
+  position: relative;
+  margin-bottom: 0.3rem;
+  display: flex;
+}
+.events .events__text-wrap {
+  width: 60%;
+  height: 100%;
+  background-color: #29593f;
+  padding: 0 3rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  letter-spacing: 0.2rem;
+}
+.events .events__title {
+  color: white;
+  font-family: GamesDaymariusv2;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 6.6rem;
+}
+.events .events__subtitle {
+  color: white;
+  font-family: GamesDaymariusv2;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  padding: 2.3rem 0;
+}
+.events .events__text {
+  color: white;
+  font-family: Akrobat;
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+}
+.events .events__btn {
+  margin-top: 2.3rem;
+}
+.events .events__img {
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about {
+  height: 54rem;
+  position: relative;
+  margin-bottom: 0.3rem;
+}
+.about .about__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.about .about__title {
+  color: white;
+  font-family: GamesDaymariusv2;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  position: absolute;
+  top: 7.9rem;
+  left: 6rem;
+}
+.about .events__btn {
+  position: absolute;
+  top: 17.4rem;
+  left: 6rem;
+}
+
+.blog {
+  height: 54rem;
+  position: relative;
+  margin-bottom: 0.3rem;
+}
+.blog .blog__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.blog .blog__title {
+  color: white;
+  font-family: GamesDaymariusv2;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  position: absolute;
+  top: 9.4rem;
+  left: 8.8rem;
+}
+.blog .blog__btn {
+  position: absolute;
+  top: 16.7rem;
+  left: 8.8rem;
+}
+
+.contacts {
+  min-height: 60.6rem;
+  background-color: #f4b83e;
+  padding-top: 10.3rem;
+  display: flex;
+}
+.contacts .contacts__info {
+  width: 45%;
+  height: 100%;
+  padding-left: 6.2rem;
+  letter-spacing: 0.2rem;
+}
+.contacts .contacts__title {
+  font-family: GamesDaymariusv2;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  padding-bottom: 7.3rem;
+}
+.contacts .info-item {
+  font-family: Akrobat;
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+}
+.contacts .info-item a img {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-right: 3rem;
+}
+.contacts .info-item a .grey_text {
+  font-family: Akrobat;
+  font-size: 3.6rem;
+  font-weight: 400;
+  color: #121212;
+  line-height: 5.4rem;
+  padding-top: 1.6rem;
+  padding-left: 7.5rem;
+}
+.contacts .info-item {
+  padding-bottom: 6.6rem;
+}
+.contacts .contacts__form {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contacts .contacts__form-title {
+  font-family: CAT Stack;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  padding-bottom: 6rem;
+}
+.contacts label .form-item {
+  display: flex;
+  font-family: Akrobat;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #121212;
+  line-height: 2rem;
+  position: relative;
+  cursor: pointer;
+  padding-bottom: 3rem;
+}
+.contacts label .form-item .form-item__icon {
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-radius: 0.3rem 0 0 0.3rem;
+  background-color: #F8F8F8;
+  width: 12.5rem;
+  height: 5rem;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts label .form-item .form-item__icon div {
+  padding-left: 1rem;
+  width: 100%;
+}
+.contacts label .form-item .form-item__icon img {
+  height: 2.2rem;
+  width: 2.2rem;
+  position: absolute;
+  left: 1rem;
+}
+.contacts label .form-item input {
+  width: 40rem;
+  padding: 2rem;
+  border: 1px solid gray;
+  border-radius: 0 0.3rem 0.3rem 0;
+}
+.contacts label .form-item .grey-pencil {
+  width: 1.8rem;
+  height: 1.8rem;
+  position: absolute;
+  top: 2rem;
+  right: 1.6rem;
+}
+.contacts .contacts__form-btn {
+  margin-top: 2rem;
+}
+
+.google-map {
+  height: 54.6rem;
+  background-color: greenyellow;
+}
+
+@media (max-width: 375px) {
+  .menu-more {
+    height: 65rem;
+    width: 100%;
+    margin-bottom: 0.6rem;
+  }
+  .menu-more .menu-more__title {
+    position: absolute;
+    top: 10.6rem;
+    right: 4.4rem;
+    font-family: GamesDaymariusv2;
+    font-size: 9.6rem;
+    font-weight: 400;
+    line-height: 6.4rem;
+  }
+  .menu-more .menu-more__btn {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: 7.2rem;
+    left: 6.8rem;
+  }
+}

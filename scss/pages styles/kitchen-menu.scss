@@ -1,0 +1,86 @@
+@import '../mixins';
+
+.kitchen-menu {
+    letter-spacing: 00.2rem;
+}
+
+.kitchen-menu__bg {
+    height: 54rem;
+    position: relative;
+}
+
+.bg-title {
+    position: absolute;
+    bottom: 1.8rem;
+    left: 4.5rem;
+    @include settingFonts(CAT Stack, 6.4rem, 400);
+    line-height: 8.4rem;
+}
+
+.menu__title {
+    padding: 5rem 0 7.2rem 0;
+    text-align: center;
+    @include settingFonts(CAT Stack, 4.8rem, 400);
+    line-height: 6.3rem;
+}
+
+.menu__content {
+    display: flex;
+    padding: 0 6.3rem;
+}
+
+.chose-category {
+    width: 20%;
+
+    .category-item {
+        @include settingFonts(Akrobat, 3.2rem, 700);
+        line-height: 3.2rem;
+    }
+
+    .category-item:not(:last-child) {
+        margin-bottom: 4rem;
+    }
+
+    .category-item_active {
+        color: #603916;
+    }
+}
+
+.current-dishes {
+    width: 80%;
+    padding-left: 8.7rem;
+
+    .dish {
+        padding-bottom: 2rem;
+        display: flex;
+        // background-color: yellow;
+        width: 100%;
+    }
+
+    // .dish-text {}
+
+    .dish-title {
+        @include settingFonts(Akrobat, 3.2rem, 600);
+        line-height: 3.2rem;
+        letter-spacing: 00.2rem;
+    }
+
+    .dish-description {
+        @include settingFonts(Akrobat, 1.8rem, 500);
+        line-height: 2.4rem;
+    }
+
+    .dish-weight {
+        padding: 0 3rem;
+        @include settingFonts(Akrobat, 2.4rem, 400);
+        line-height: 3.2rem;
+        letter-spacing: 00.2rem;
+    }
+
+    .dish-price {
+        padding: 0 3rem;
+        @include settingFonts(Akrobat, 2.4rem, 500);
+        line-height: 3.2rem;
+        letter-spacing: 00.2rem;
+    }
+}

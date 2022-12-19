@@ -1,0 +1,82 @@
+@media (max-width: 375px) {
+
+    $identation_btwSection: 0.6rem;
+
+    // !!!menu-more
+    // .menu-more {
+    //     height: 37.5rem;
+    //     width: 100%;
+    //     margin-bottom: $identation_btwSection;
+
+    //     .menu-more__title {
+    //         position: absolute;
+    //         top: 5.3rem;
+    //         right: 2.2rem;
+    //         @include settingFonts(GamesDaymariusv2, 4.8rem, 400);
+    //         line-height: 3.2rem;
+    //     }
+
+    //     .menu-more__btn {
+    //         position: absolute;
+    //         top: auto;
+    //         right: auto;
+    //         bottom: 1.9rem;
+    //         left: 1.7rem;
+    //     }
+    // }
+
+    .menu-more {
+        height: 65rem;
+        width: 100%;
+        margin-bottom: $identation_btwSection;
+
+        .menu-more__title {
+            position: absolute;
+            top: 10.6rem;
+            right: 4.4rem;
+            @include settingFonts(GamesDaymariusv2, 9.6rem, 400);
+            line-height: 6.4rem;
+        }
+
+        .menu-more__btn {
+            position: absolute;
+            top: auto;
+            right: auto;
+            bottom: 7.2rem;
+            left: 6.8rem;
+        }
+    }
+
+    // !!!reserve
+    // .reserve {
+    //     height: 37.5rem * 2;
+    //     width: 100%;
+    //     position: relative;
+    //     background-color: white;
+    //     margin-bottom: $identation_btwSection;
+
+    //     .reserve__bg {
+    //         height: 100%;
+    //         width: 100%;
+    //         object-fit: cover;
+    //     }
+
+    //     .reserve__title {
+    //         position: absolute;
+    //         bottom: 14.6rem;
+    //         left: 6rem;
+    //         color: white;
+    //         @include settingFonts(GamesDaymariusv2, 6.4rem, 400);
+    //         line-height: 6.6rem;
+    //         letter-spacing: 00.2rem;
+    //     }
+
+    //     .reserve__btn {
+    //         position: absolute;
+    //         bottom: 6.1rem;
+    //         left: 6rem;
+    //     }
+    // }
+
+    
+}

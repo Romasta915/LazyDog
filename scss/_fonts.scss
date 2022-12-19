@@ -1,0 +1,40 @@
+// fonts: 'Akrobat (800, 700, 600, 500, 400)',
+// 'Inter (500)',
+// 'Lato (700)',
+// 'GamesDaymariusv2 (400)',
+// 'CAT Stack (400)'
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Lato/Lato-Black.ttf')
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Inter/Inter-VariableFont_slnt,wght.ttf')
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    font-style: normal;
+    font-weight: 400, 500, 600, 700, 800;
+    src: url('../fonts/Acrobat/Akrobat-Regular.otf')
+}
+
+@font-face {
+    font-family: 'GamesDaymariusv2';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/GamesDaymariusv2/gamesdaymariusv2-regular.ttf')
+}
+
+@font-face {
+    font-family: 'CAT Stack';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/CAT-Stack/catstack.ttf')
+}

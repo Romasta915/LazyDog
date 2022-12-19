@@ -1,0 +1,86 @@
+@import '../mixins';
+
+.merch-page {
+
+    .merch-page_title {
+        padding-top: 5rem;
+        padding-bottom: 10rem;
+        position: relative;
+
+        .search-input_cont {
+            position: absolute;
+            left: 11.5rem;
+            top: 6rem;
+
+            .search-input {
+                border: 1px solid lightgray;
+                @include settingFonts(Akrobat, 2.4rem, 700);
+                line-height: 3.2rem;
+                padding: 1rem;
+                width: 27.5rem;
+                border-radius: 0.3rem;
+            }
+
+            img {
+                position: absolute;
+                right: 1rem;
+                top: 1.5rem;
+                width: 2.5rem;
+                height: 2.5rem;
+                cursor: pointer;
+            }
+        }
+
+        .title {
+            @include settingFonts(CAT Stack, 6.4rem, 400);
+            line-height: 8.4rem;
+            text-align: center;
+        }
+
+        .cart {
+            position: absolute;
+            right: 6.4rem;
+            top: 7rem;
+
+            img {
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+    }
+
+    .goods {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 7rem 8.5rem 7rem;
+
+        img {
+            width: 27.7rem;
+            height: 27.7rem;
+        }
+
+        .product {
+            text-align: center;
+            width: 33%;
+            padding: 1.3rem;
+
+            .title {
+                @include settingFonts(Akrobat, 2rem, 500);
+                line-height: 2.7rem;
+            }
+
+            .price {
+                @include settingFonts(Akrobat, 1.8rem, 500);
+                line-height: 2.7rem;
+            }
+        }
+    }
+
+    .btn-cont {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 6.2rem;
+    }
+}

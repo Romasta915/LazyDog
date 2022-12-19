@@ -1,0 +1,250 @@
+@import "./_normalization.scss";
+@import "./_fonts.scss";
+@import "./_ui-kit.scss";
+@import "./_mixins.scss";
+
+.not_have_in_maket {
+    @include settingFonts(GamesDaymariusv2, 6.4rem, 400);
+    line-height: 6.8rem;
+    padding-bottom: 7.3rem;
+    height: 30rem;
+    background-color: #f4b83e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html {
+    /* 10 / ( ширина макету 1440 / 100 ) = 0,69445  */
+    font-size: 0.6944vw;
+    font-style: normal;
+    font-weight: 300;
+    text-rendering: auto;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    // background-color: rgba(255, 0, 0, 0.322);
+    font-size: 3rem;
+}
+
+.container {
+    // width: 140rem;
+    margin: 0 auto;
+}
+
+// !!!header
+.header {
+    background-color: white;
+    height: 12.8rem;
+    width: 100%;
+    z-index: 2;
+    position: relative;
+    letter-spacing: 00.2rem;
+    padding: 0 6.6rem;
+
+    .logo-wrapp {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1.6rem;
+    }
+
+    .burger,
+    .header-nav_mobile {
+        display: none;
+    }
+
+    .logo {
+        @include settingFonts(Lato, 2.4rem, 700);
+        letter-spacing: 00.2rem;
+        line-height: 3.2rem;
+        text-transform: uppercase;
+        color: #004C7E;
+    }
+
+    .header-nav {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 3.2rem;
+
+        .left-part,
+        .right-part {
+            width: 40%;
+            display: flex;
+
+            ul {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                @include settingFonts(Akrobat, 2.4rem, 700);
+                line-height: 3.2rem;
+                letter-spacing: 0.2px;
+                text-transform: uppercase;
+
+                li {
+                    transition: 0.5s;
+                }
+
+                li:hover {
+                    transition: 0.5s;
+                    border-bottom: 0.2rem solid black;
+                }
+            }
+        }
+    }
+}
+
+// !!!footer
+.footer {
+    height: 25.9rem;
+    padding-left: 6rem;
+
+    .footer__info {
+        display: flex;
+
+        .footer__nav {
+            width: 45%;
+            height: 25.9rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+
+            .footer__nav-item {
+                width: 33%;
+                @include settingFonts(Akrobat, 2.4rem, 500);
+                line-height: 2.4rem;
+                color: #A06937;
+            }
+        }
+
+        .footer__shedule {
+            width: 30%;
+            @include settingFonts(Akrobat, 3.6rem, 500);
+            line-height: 3.2rem;
+            display: flex;
+            align-items: center;
+
+            a {
+                .grey_text {
+                    @include settingFonts(Akrobat, 3.6rem, 400);
+                    line-height: 5.4rem;
+                    color: #121212;
+                    padding-top: 1.6rem;
+                }
+            }
+        }
+    }
+
+    .footer__logoSocials {
+        width: 25%;
+
+        .footer__logoCont {
+            height: 50%;
+            display: flex;
+            align-items: center;
+            @include settingFonts(Lato, 2.4rem, 700);
+            line-height: 3.2rem;
+            color: #004C7E;
+        }
+
+        .footer__socialsCont {
+            height: 50%;
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 1.8rem;
+                height: 1.8rem;
+                margin-right: 3rem;
+            }
+        }
+    }
+
+    .footer__copyright {
+        @include settingFonts(Akrobat, 1.6rem, 400);
+        line-height: 2.4rem;
+        color: #555555;
+        padding-bottom: 2rem;
+    }
+}
+
+// !!!global mobile
+@media (max-width: 375px) {
+
+    .header {
+        height: 12rem;
+        width: 100%;
+
+        .burger {
+            display: block;
+            position: absolute;
+            right: 2rem;
+
+            img {
+                object-fit: cover;
+                width: 4.2rem;
+                height: 3.6rem;
+            }
+        }
+
+        .logo {
+            @include settingFonts(Lato, 4.8rem, 700);
+            line-height: 6.4rem;
+            text-transform: uppercase;
+            color: #004C7E;
+        }
+
+        .header-nav {
+            display: none;
+        }
+
+        .header-nav_mobile {
+            display: block;
+            transform: translateX(40rem);
+            position: fixed;
+            right: 0;
+            top: 0;
+            min-height: 90rem;
+            width: 40rem;
+            padding-top: 7rem;
+            background-color: white;
+            @include settingFonts(Akrobat, 4rem, 700);
+            line-height: 10rem;
+            text-transform: uppercase;
+
+            ul {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+
+                a:not(:last-child) {
+                    border-bottom: 0.1rem solid black;
+                }
+            }
+
+            .burger__close {
+                width: 7rem;
+                height: 7rem;
+                position: absolute;
+                right: 1rem;
+                top: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    object-fit: cover;
+                    width: 7rem;
+                    height: 7rem;
+                }
+            }
+
+        }
+    }
+
+}

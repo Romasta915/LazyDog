@@ -1,0 +1,117 @@
+@import '../mixins.scss';
+
+// !!!contacts
+.contacts {
+    min-height: 60.6rem;
+    background-color: #f4b83e;
+    padding-top: 10.3rem;
+    display: flex;
+
+    .contacts__info {
+        width: 45%;
+        height: 100%;
+        padding-left: 6.2rem;
+        letter-spacing: 00.2rem;
+    }
+
+    .contacts__title {
+        @include settingFonts(GamesDaymariusv2, 6.4rem, 400);
+        line-height: 3.2rem;
+        padding-bottom: 7.3rem;
+    }
+
+    .info-item {
+        @include settingFonts(Akrobat, 3.6rem, 500);
+        line-height: 3.2rem;
+
+        a {
+            img {
+                width: 3.5rem;
+                height: 3.5rem;
+                margin-right: 3rem;
+            }
+
+            .grey_text {
+                @include settingFonts(Akrobat, 3.6rem, 400);
+                color: #121212;
+                line-height: 5.4rem;
+                padding-top: 1.6rem;
+                padding-left: 7.5rem;
+            }
+        }
+    }
+
+    .info-item {
+        padding-bottom: 6.6rem;
+    }
+
+    .contacts__form {
+        width: 55%;
+        display: flex;
+        align-items: center;
+        flex-direction: column
+    }
+
+    .contacts__form-title {
+        @include settingFonts(CAT Stack, 3.6rem, 400);
+        line-height: 3.2rem;
+        padding-bottom: 6rem;
+    }
+
+    label {
+        .form-item {
+            display: flex;
+            @include settingFonts(Akrobat, 1.4rem, 700);
+            color: #121212;
+            line-height: 2rem;
+            position: relative;
+            cursor: pointer;
+            padding-bottom: 3rem;
+
+            .form-item__icon {
+                border-top: 1px solid gray;
+                border-left: 1px solid gray;
+                border-bottom: 1px solid gray;
+                border-radius: 0.3rem 0 0 0.3rem;
+                background-color: #F8F8F8;
+                width: 12.5rem;
+                height: 5rem;
+                padding: 3rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                div {
+                    padding-left: 1rem;
+                    width: 100%;
+                }
+
+                img {
+                    height: 2.2rem;
+                    width: 2.2rem;
+                    position: absolute;
+                    left: 1rem;
+                }
+            }
+
+            input {
+                width: 40rem;
+                padding: 2rem;
+                border: 1px solid gray;
+                border-radius: 0 0.3rem 0.3rem 0;
+            }
+
+            .grey-pencil {
+                width: 1.8rem;
+                height: 1.8rem;
+                position: absolute;
+                top: 2rem;
+                right: 1.6rem;
+            }
+        }
+    }
+
+    .contacts__form-btn {
+        margin-top: 2rem;
+    }
+}

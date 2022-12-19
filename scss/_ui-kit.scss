@@ -1,0 +1,60 @@
+@import "./mixins.scss";
+
+.btn {
+    @include settingFonts(GamesDaymariusv2, 3.2rem, 400);
+    line-height: 3.2rem;
+    padding-top: 1.5rem;
+    padding-right: 3rem;
+    padding-bottom: 1.5rem;
+    padding-left: 3rem;
+}
+
+@media(max-width: 375px) {
+    .btn {
+        @include settingFonts(GamesDaymariusv2, 6.4rem, 400);
+        line-height: 6.4rem;
+        padding-top: 3rem;
+        padding-right: 6rem;
+        padding-bottom: 3rem;
+        padding-left: 6rem;
+    }
+}
+
+.btn_green {
+    background-color: #5A6934;
+    color: white;
+    letter-spacing: 00.2rem;
+    transition: 0.3s;
+}
+
+.btn_green:hover {
+    background-color: #6e872d;
+    transition: 0.3s;
+    border-radius: 0.5rem;
+}
+
+.btn_yellow {
+    background-color: #E5B42F;
+    color: black;
+    letter-spacing: 00.2rem;
+    transition: 0.3s;
+}
+
+.btn_yellow:hover {
+    background-color: #f4c647;
+    transition: 0.3s;
+    border-radius: 0.5rem;
+}
+
+.btn_brown {
+    background-color: #854f20;
+    color: white;
+    letter-spacing: 00.2rem;
+    transition: 0.3s;
+}
+
+.btn_brown:hover {
+    background-color: #975822;
+    transition: 0.3s;
+    border-radius: 0.5rem;
+}

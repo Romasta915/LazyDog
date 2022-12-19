@@ -1,0 +1,372 @@
+@import '../mixins.scss';
+
+$identation_btwSection: 0.3rem;
+
+// !!!menu more
+.menu-more {
+    height: 54rem;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+    margin-bottom: $identation_btwSection;
+
+    .menu-more__bg {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+        // transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    .menu-more__title {
+        position: absolute;
+        top: 10.3rem;
+        right: 17.2rem;
+        color: white;
+        @include settingFonts(GamesDaymariusv2, 4.8rem, 400);
+        line-height: 3.2rem;
+        letter-spacing: 00.2rem;
+    }
+
+    .menu-more__btn {
+        position: absolute;
+        top: 18.1rem;
+        right: 12.2rem;
+    }
+}
+
+// !!!reserve
+.reserve {
+    height: 74rem;
+    position: relative;
+    background-color: white;
+    margin-bottom: $identation_btwSection;
+
+    .reserve__bg {
+        height: 74rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .reserve__title {
+        position: absolute;
+        bottom: 14.6rem;
+        left: 6rem;
+        color: white;
+        @include settingFonts(GamesDaymariusv2, 6.4rem, 400);
+        line-height: 6.6rem;
+        letter-spacing: 00.2rem;
+    }
+
+    .reserve__btn {
+        position: absolute;
+        bottom: 6.1rem;
+        left: 6rem;
+    }
+}
+
+// !!!merch
+.merch {
+    display: flex;
+    height: 54rem;
+    margin-bottom: $identation_btwSection;
+
+    .merch__text-cont {
+        height: 100%;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #5a6934;
+        padding: 0 3.7rem;
+    }
+
+    .merch__title {
+        color: white;
+        @include settingFonts(GamesDaymariusv2, 6.4rem, 400);
+        line-height: 3.2rem;
+        letter-spacing: 00.2rem;
+    }
+
+    .merch__text {
+        color: white;
+        @include settingFonts(Akrobat, 5.6rem, 500);
+        line-height: 6.7rem;
+        letter-spacing: 00.2rem;
+        padding: 3.7rem 0 3.7rem 0;
+    }
+
+    .merch__img {
+        width: 60%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+// !!!guests
+.guests {
+    height: 54rem;
+    position: relative;
+    margin-bottom: $identation_btwSection;
+
+    .guests__img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .guests__title {
+        color: white;
+        @include settingFonts(GamesDaymariusv2, 6.4rem, 400);
+        line-height: 6.8rem;
+        position: absolute;
+        top: 15rem;
+        right: 21.9rem;
+        letter-spacing: 00.2rem;
+    }
+
+    .guests__btn {
+        position: absolute;
+        top: 30rem;
+        right: 15.9rem;
+
+    }
+}
+
+// !!!events
+.events {
+    height: 54rem;
+    position: relative;
+    margin-bottom: $identation_btwSection;
+    display: flex;
+
+    .events__text-wrap {
+        width: 60%;
+        height: 100%;
+        background-color: #29593f;
+        padding: 0 3rem;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        letter-spacing: 00.2rem;
+    }
+
+    .events__title {
+        color: white;
+        @include settingFonts(GamesDaymariusv2, 6.4rem, 400);
+        line-height: 6.6rem;
+    }
+
+    .events__subtitle {
+        color: white;
+        @include settingFonts(GamesDaymariusv2, 3.6rem, 400);
+        line-height: 3.2rem;
+        padding: 2.3rem 0;
+    }
+
+    .events__text {
+        color: white;
+        @include settingFonts(Akrobat, 3.6rem, 500);
+        line-height: 3.2rem;
+    }
+
+    .events__btn {
+        margin-top: 2.3rem;
+    }
+
+    .events__img {
+        width: 40%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+// !!!about
+.about {
+    height: 54rem;
+    position: relative;
+    margin-bottom: $identation_btwSection;
+
+    .about__img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .about__title {
+        color: white;
+        @include settingFonts(GamesDaymariusv2, 6.4rem, 400);
+        line-height: 3.2rem;
+        position: absolute;
+        top: 7.9rem;
+        left: 6rem;
+    }
+
+    .events__btn {
+        position: absolute;
+        top: 17.4rem;
+        left: 6rem;
+    }
+}
+
+// !!!blog
+.blog {
+    height: 54rem;
+    position: relative;
+    margin-bottom: $identation_btwSection;
+
+    .blog__img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .blog__title {
+        color: white;
+        @include settingFonts(GamesDaymariusv2, 6.4rem, 400);
+        line-height: 3.2rem;
+        position: absolute;
+        top: 9.4rem;
+        left: 8.8rem;
+    }
+
+    .blog__btn {
+        position: absolute;
+        top: 16.7rem;
+        left: 8.8rem;
+    }
+}
+
+// !!!contacts
+.contacts {
+    min-height: 60.6rem;
+    background-color: #f4b83e;
+    padding-top: 10.3rem;
+    display: flex;
+
+    .contacts__info {
+        width: 45%;
+        height: 100%;
+        padding-left: 6.2rem;
+        letter-spacing: 00.2rem;
+    }
+
+    .contacts__title {
+        @include settingFonts(GamesDaymariusv2, 6.4rem, 400);
+        line-height: 3.2rem;
+        padding-bottom: 7.3rem;
+    }
+
+    .info-item {
+        @include settingFonts(Akrobat, 3.6rem, 500);
+        line-height: 3.2rem;
+
+        a {
+            img {
+                width: 3.5rem;
+                height: 3.5rem;
+                margin-right: 3rem;
+            }
+
+            .grey_text {
+                @include settingFonts(Akrobat, 3.6rem, 400);
+                color: #121212;
+                line-height: 5.4rem;
+                padding-top: 1.6rem;
+                padding-left: 7.5rem;
+            }
+        }
+    }
+
+    .info-item {
+        padding-bottom: 6.6rem;
+    }
+
+    .contacts__form {
+        width: 55%;
+        display: flex;
+        align-items: center;
+        flex-direction: column
+    }
+
+    .contacts__form-title {
+        @include settingFonts(CAT Stack, 3.6rem, 400);
+        line-height: 3.2rem;
+        padding-bottom: 6rem;
+    }
+
+    label {
+        .form-item {
+            display: flex;
+            @include settingFonts(Akrobat, 1.4rem, 700);
+            color: #121212;
+            line-height: 2rem;
+            position: relative;
+            cursor: pointer;
+            padding-bottom: 3rem;
+
+            .form-item__icon {
+                border-top: 1px solid gray;
+                border-left: 1px solid gray;
+                border-bottom: 1px solid gray;
+                border-radius: 0.3rem 0 0 0.3rem;
+                background-color: #F8F8F8;
+                width: 12.5rem;
+                height: 5rem;
+                padding: 3rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                div {
+                    padding-left: 1rem;
+                    width: 100%;
+                }
+
+                img {
+                    height: 2.2rem;
+                    width: 2.2rem;
+                    position: absolute;
+                    left: 1rem;
+                }
+            }
+
+            input {
+                width: 40rem;
+                padding: 2rem;
+                border: 1px solid gray;
+                border-radius: 0 0.3rem 0.3rem 0;
+            }
+
+            .grey-pencil {
+                width: 1.8rem;
+                height: 1.8rem;
+                position: absolute;
+                top: 2rem;
+                right: 1.6rem;
+            }
+        }
+    }
+
+    .contacts__form-btn {
+        margin-top: 2rem;
+    }
+}
+
+// !!!map
+.google-map {
+    height: 54.6rem;
+    background-color: greenyellow;
+}
+
+// mobile
+@import "../mobile styles/home-mobile.scss";

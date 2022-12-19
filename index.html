@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/global-styles.css">
+    <link rel="stylesheet" href="./css/home-page.css">
+    <title>LazyDog</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="logo-wrapp">
+                <div class="logo">
+                    <a href="./index.html">
+                        LOGO
+                    </a>
+                </div>
+                <button class="burger" id="burger">
+                    <img src="./images/icons/burger-open.png" alt="#">
+                </button>
+            </div>
+            <nav class="header-nav">
+                <div class="left-part">
+                    <ul>
+                        <a href="./pages/chose-menu.html">
+                            <li>меню</li>
+                        </a>
+                        <a href="./pages/reserv.html">
+                            <li>резерв</li>
+                        </a>
+                        <a href="./pages/merch.html">
+                            <li>мерч</li>
+                        </a>
+                        <a href="./pages/guests.html">
+                            <li>наші гості</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="right-part">
+                    <ul>
+                        <a href="./pages/about.html">
+                            <li>про нас</li>
+                        </a>
+                        <a href="./pages/blog.html">
+                            <li>блог</li>
+                        </a>
+                        <a href="./pages/events.html">
+                            <li>події</li>
+                        </a>
+                        <a href="./pages/contacts.html">
+                            <li>контакти</li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="header-nav_mobile" id="mobileNav">
+                <button class="burger__close" id="burger__close">
+                    <img src="./images/icons/burger-close.png" alt="#">
+                </button>
+                <ul>
+                    <a href="./pages/chose-menu.html">
+                        <li>меню</li>
+                    </a>
+                    <a href="./pages/reserv.html">
+                        <li>резерв</li>
+                    </a>
+                    <a href="./pages/merch.html">
+                        <li>мерч</li>
+                    </a>
+                    <a href="./pages/guests.html">
+                        <li>наші гості</li>
+                    </a>
+                    <a href="./pages/about.html">
+                        <li>про нас</li>
+                    </a>
+                    <a href="./pages/blog.html">
+                        <li>блог</li>
+                    </a>
+                    <a href="./pages/events.html">
+                        <li>події</li>
+                    </a>
+                    <a href="./pages/contacts.html">
+                        <li>контакти</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="menu-more">
+                <img class="menu-more__bg" src="./images/main-1.png" alt="#">
+                <div class="menu-more__title">Меню</div>
+                <a href="./pages/chose-menu.html">
+                    <button class="btn btn_green menu-more__btn">Більше ▶</button>
+                </a>
+            </section>
+
+            <section class="reserve">
+                <img class="reserve__bg" src="./images/main-2.png" alt="#">
+                <div class="reserve__title">Зарезервуй свій <br> столик</div>
+                <a href="./pages/reserv.html">
+                    <button class="btn btn_green reserve__btn">Зарезервувати ▶</button>
+                </a>
+            </section>
+
+            <section class="merch">
+                <div class="merch__text-cont">
+                    <div>
+                        <div class="merch__title">МЕРЧ</div>
+                        <div class="merch__text">Choose your style with Lazy Dog</div>
+                        <a href="./pages/merch.html">
+                            <button class="btn btn_yellow merch__btn">Придбати ▶</button>
+                        </a>
+                    </div>
+                </div>
+                <img class="merch__img" src="./images/main-3.png" alt="#">
+            </section>
+
+            <section class="guests">
+                <img class="guests__img" src="./images/main-4.png" alt="#">
+                <div class="guests__title">Наші <br> Гості</div>
+                <a href="./pages/guests.html">
+                    <button class="btn btn_yellow guests__btn">Більше ▶</button>
+                </a>
+            </section>
+
+            <section class="events">
+                <div class="events__text-wrap">
+                    <div class="events__title">Події</div>
+                    <div class="events__subtitle">Трансляція футбольних матчів</div>
+                    <div class="events__text">У нашому пабі "Лінивий пес" встановлено 6 плазмових телевізорів для
+                        зручного перегляду футбольних матчів з будь-якої точки вашого місця розташування. У барі
+                        транслюють футбольні матчі Ліги Чемпіонів, найцікавіші матчі Ліги Європи і, звичайно ж,
+                        українські чемпіонати.
+                    </div>
+                    <a href="./pages/events.html">
+                        <button class="btn btn_yellow events__btn">Більше ▶</button>
+                    </a>
+                </div>
+                <div class="events__img-wrapper"></div>
+                <img class="events__img" src="./images/main-5.png" alt="#">
+            </section>
+
+            <section class="about">
+                <img class="about__img" src="./images/main-6.png" alt="#">
+                <div class="about__title">Про нас</div>
+                <a href="./pages/about.html">
+                    <button class="btn btn_yellow events__btn">Більше ▶</button>
+                </a>
+            </section>
+
+            <section class="blog">
+                <img class="blog__img" src="./images/main-7.png" alt="#">
+                <div class="blog__title">Блог</div>
+                <a href="./pages/blog.html">
+                    <button class="btn btn_yellow blog__btn">Більше ▶</button>
+                </a>
+            </section>
+
+            <section class="contacts">
+                <div class="contacts__info">
+                    <div class="contacts__title">Контакти</div>
+                    <div class="info-item">
+                        <a href="tel:(096)-528-60-94">
+                            <img src="images/icons/phone.png" alt="#">
+                            (096)-528-60-94
+                        </a>
+                    </div>
+                    <div class="info-item">
+                        <a target="_blank"
+                            href="https://www.google.com/maps/place/%D0%9B%D1%96%D0%BD%D0%B8%D0%B2%D0%B8%D0%B9+%D0%BF%D0%B5%D1%81/@49.842903,24.030005,16z/data=!4m5!3m4!1s0x0:0xa79c42bbc922c41f!8m2!3d49.8429033!4d24.0300051?hl=uk">
+                            <img src="images/icons/map_point.png" alt="#">
+                            м. Львів вул. Краківська 9
+                        </a>
+                    </div>
+                    <div class="info-item">
+                        <a href="#">
+                            <img src="images/icons/schedule.png" alt="#">
+                            Графік Роботи <br>
+                            <div class="grey_text">
+                                пн-пт 11:00-22:00;
+                                <br>
+                                сб-нд 11:00-22:00
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contacts__form">
+                    <div class="contacts__form-title">ФОРМА ЗВОРОТНЬОГО ЗВЯЗКУ</div>
+                    <label for="name">
+                        <div class="form-item">
+                            <div class="form-item__icon">
+                                <img src="./images/icons/brown_user.png" alt="#">
+                                <div>Ім'я</div>
+                            </div>
+                            <input type="text" id="name" placeholder="Ваше ім'я">
+                            <img class="grey-pencil" src="./images/icons/grey_pencil.png" alt="#">
+                        </div>
+                    </label>
+                    <label for="phone">
+                        <div class="form-item">
+                            <div class="form-item__icon">
+                                <img src="./images/icons/brown_phone.png" alt="#">
+                                <div>Телефон</div>
+                            </div>
+                            <input type="number" id="phone" placeholder="000 000 00 00">
+                            <img class="grey-pencil" src="./images/icons/grey_pencil.png" alt="#">
+                        </div>
+                    </label>
+                    <label for="massage">
+                        <div class="form-item">
+                            <div class="form-item__icon">
+                                <img src="./images/icons/brown_map_point.png" alt="#">
+                                <div>Повідомлення</div>
+                            </div>
+                            <input type="text" id="massage" placeholder="Напишіть ваші пабажання">
+                            <img class="grey-pencil" src="./images/icons/grey_pencil.png" alt="#">
+                        </div>
+                    </label>
+                    <input type="button" value="Надіслати ▶" class="btn btn_green contacts__form-btn">
+                </div>
+            </section>
+
+            <section class="google-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.9760927512602!2d24.027430176186034!3d49.84290673092235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6d79db8049%3A0xa79c42bbc922c41f!2z0JvRltC90LjQstC40Lkg0L_QtdGB!5e0!3m2!1suk!2sua!4v1670945607813!5m2!1suk!2sua"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__info">
+
+                <div class="footer__nav">
+                    <div class="footer__nav-item"><a href="./pages/chose-menu.html">Меню</a></div>
+                    <div class="footer__nav-item"><a href="./pages/reserv.html">Резерв</a></div>
+                    <div class="footer__nav-item"><a href="./pages/merch.html">Мерч</a></div>
+                    <div class="footer__nav-item"><a href="./pages/about.html">Про нас</a></div>
+                    <div class="footer__nav-item"><a href="./pages/blog.html">Блог</a></div>
+                    <div class="footer__nav-item"><a href="./pages/events.html">Події</a></div>
+                    <div class="footer__nav-item"><a href="./pages/guests.html">Наші гості</a></div>
+                    <div class="footer__nav-item"><a href="./pages/contacts.html">Контакти</a></div>
+                </div>
+
+                <div class="footer__shedule">
+                    <a href="#">
+                        Графік Роботи <br>
+                        <div class="grey_text">
+                            пн-пт 11:00-22:00;
+                            <br>
+                            сб-нд 11:00-22:00
+                        </div>
+                    </a>
+                </div>
+
+                <div class="footer__logoSocials">
+                    <div class="footer__logoCont">
+                        <a href="./index.html">
+                            LOGO
+                        </a>
+                    </div>
+                    <div class="footer__socialsCont">
+                        <a href="#"><img src="./images/icons/orange_linkedIn.png" alt="#"></a>
+                        <a href="#"><img src="./images/icons/orange_facebook.png" alt="#"></a>
+                        <a href="#"><img src="./images/icons/orange_instagram.png" alt="#"></a>
+                        <a href="#"><img src="./images/icons/orange_twitter.png" alt="#"></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer__copyright">© 2022 Lazy Dog Restaurants, LLC all rights reserved.</div>
+        </footer>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
