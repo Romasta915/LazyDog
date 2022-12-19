@@ -24,3 +24,37 @@
   bottom: 3rem;
   left: 3rem;
 }
+
+@media (max-width: 375px) {
+  .choose {
+    display: flex;
+    flex-direction: column;
+  }
+  .kitchen {
+    width: 100%;
+    height: 108rem;
+    position: relative;
+    padding-bottom: 2rem;
+  }
+  .kitchen img {
+    object-fit: cover;
+  }
+  .kitchen .kitchen__btn {
+    position: absolute;
+    bottom: 6rem;
+    left: 6rem;
+  }
+  .bar {
+    width: 100%;
+    height: 108rem;
+    position: relative;
+  }
+  .bar img {
+    object-fit: cover;
+  }
+  .bar .bar__btn {
+    position: absolute;
+    bottom: 6rem;
+    left: 6rem;
+  }
+}

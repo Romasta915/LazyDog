@@ -129,23 +129,17 @@ ul li {
   font-family: GamesDaymariusv2;
   font-size: 3.2rem;
   font-weight: 400;
-  line-height: 3.2rem;
-  padding-top: 1.5rem;
-  padding-right: 3rem;
-  padding-bottom: 1.5rem;
-  padding-left: 3rem;
+  line-height: 4.2rem;
+  padding: 0.6em;
 }
 
 @media (max-width: 375px) {
   .btn {
     font-family: GamesDaymariusv2;
-    font-size: 6.4rem;
+    font-size: 8.4rem;
     font-weight: 400;
-    line-height: 6.4rem;
-    padding-top: 3rem;
-    padding-right: 6rem;
-    padding-bottom: 3rem;
-    padding-left: 6rem;
+    line-height: 10rem;
+    padding: 0.4em;
   }
 }
 .btn_green {
@@ -355,6 +349,8 @@ body {
   .header {
     height: 12rem;
     width: 100%;
+    display: flex;
+    align-items: center;
   }
   .header .burger {
     display: block;
@@ -379,18 +375,18 @@ body {
   }
   .header .header-nav_mobile {
     display: block;
-    transform: translateX(40rem);
+    transform: translateX(85rem);
     position: fixed;
     right: 0;
     top: 0;
-    min-height: 90rem;
-    width: 40rem;
-    padding-top: 7rem;
+    min-height: 180rem;
+    width: 80rem;
+    padding-top: 14rem;
     background-color: white;
     font-family: Akrobat;
-    font-size: 4rem;
+    font-size: 8rem;
     font-weight: 700;
-    line-height: 10rem;
+    line-height: 20rem;
     text-transform: uppercase;
   }
   .header .header-nav_mobile ul {
@@ -403,18 +399,100 @@ body {
     border-bottom: 0.1rem solid black;
   }
   .header .header-nav_mobile .burger__close {
-    width: 7rem;
-    height: 7rem;
+    width: 14rem;
+    height: 14rem;
     position: absolute;
-    right: 1rem;
-    top: 1rem;
+    right: 2rem;
+    top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .header .header-nav_mobile .burger__close img {
     object-fit: cover;
+    width: 14rem;
+    height: 14rem;
+  }
+  .footer {
+    height: 96rem;
+    padding-left: 0;
+  }
+  .footer .footer__info {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .footer__info .footer__nav {
+    width: 100%;
+    height: 80rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10rem 6.2rem;
+  }
+  .footer .footer__info .footer__nav .footer__nav-item {
+    width: 33%;
+    font-family: Akrobat;
+    font-size: 8rem;
+    font-weight: 500;
+    line-height: 10rem;
+    color: #A06937;
+  }
+  .footer .footer__info .footer__shedule {
+    width: 100%;
+    font-family: Akrobat;
+    font-size: 11rem;
+    font-weight: 500;
+    line-height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 8rem;
+  }
+  .footer .footer__info .footer__shedule a .grey_text {
+    font-family: Akrobat;
+    font-size: 12rem;
+    font-weight: 400;
+    line-height: 15rem;
+    color: #121212;
+    padding-top: 1.6rem;
+    text-align: center;
+  }
+  .footer .footer__logoSocials {
+    width: 100%;
+  }
+  .footer .footer__logoSocials .footer__logoCont {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Lato;
+    font-size: 8rem;
+    font-weight: 700;
+    line-height: 12rem;
+    color: #004C7E;
+    padding: 8rem 0;
+  }
+  .footer .footer__logoSocials .footer__socialsCont {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .footer__logoSocials .footer__socialsCont img {
     width: 7rem;
     height: 7rem;
+    margin: 0 6rem;
+  }
+  .footer .footer__copyright {
+    font-family: Akrobat;
+    font-size: 5.6rem;
+    font-weight: 400;
+    line-height: 8rem;
+    color: #555555;
+    padding: 0 6.2rem 10rem 6.2rem;
   }
 }

@@ -36,7 +36,7 @@
   margin-bottom: 0.3rem;
 }
 .reserve .reserve__bg {
-  height: 74rem;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
@@ -194,7 +194,7 @@
   top: 7.9rem;
   left: 6rem;
 }
-.about .events__btn {
+.about .about__btn {
   position: absolute;
   top: 17.4rem;
   left: 6rem;
@@ -341,7 +341,7 @@
 
 @media (max-width: 375px) {
   .menu-more {
-    height: 65rem;
+    height: 80rem;
     width: 100%;
     margin-bottom: 0.6rem;
   }
@@ -358,7 +358,289 @@
     position: absolute;
     top: auto;
     right: auto;
-    bottom: 7.2rem;
-    left: 6.8rem;
+    bottom: 3.8rem;
+    left: 3.4rem;
+  }
+  .reserve {
+    height: 80rem;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    margin-bottom: 0.6rem;
+  }
+  .reserve .reserve__title {
+    bottom: auto;
+    left: auto;
+    top: 5.4rem;
+    right: 2.8rem;
+    font-family: GamesDaymariusv2;
+    font-size: 12.8rem;
+    font-weight: 400;
+    line-height: 13.2rem;
+    width: 80rem;
+    text-align: right;
+  }
+  .reserve .reserve__btn {
+    position: absolute;
+    bottom: 6.1rem;
+    left: 6rem;
+  }
+  .merch {
+    height: 160rem;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 0.6rem;
+  }
+  .merch .merch__text-cont {
+    height: 86rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #5a6934;
+    padding: 7.2rem;
+  }
+  .merch .merch__title {
+    color: white;
+    font-family: GamesDaymariusv2;
+    font-size: 12.8rem;
+    font-weight: 400;
+    line-height: 12.8rem;
+    letter-spacing: 0.4rem;
+  }
+  .merch .merch__text {
+    color: white;
+    font-family: Akrobat;
+    font-size: 13.2rem;
+    font-weight: 500;
+    line-height: 13.4rem;
+    letter-spacing: 0.2rem;
+    padding: 7.4rem 0 7.4rem 0;
+  }
+  .merch .merch__img {
+    width: 100%;
+    height: 75rem;
+    object-fit: cover;
+  }
+  .guests {
+    height: 80rem;
+    margin-bottom: 0.6rem;
+  }
+  .guests .guests__title {
+    color: white;
+    font-family: GamesDaymariusv2;
+    font-size: 9.6rem;
+    font-weight: 400;
+    line-height: 13.6rem;
+    position: absolute;
+    top: 11.4rem;
+    right: 4.8rem;
+  }
+  .guests .guests__btn {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: 3.8rem;
+    left: 3.4rem;
+  }
+  .events {
+    height: 265.6rem;
+    margin-bottom: 0.6rem;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .events .events__text-wrap {
+    width: 100%;
+    height: 176.6rem;
+    background-color: #29593f;
+    padding: 0 6rem;
+  }
+  .events .events__title {
+    color: white;
+    font-family: GamesDaymariusv2;
+    font-size: 16.8rem;
+    font-weight: 400;
+    line-height: 17.2rem;
+  }
+  .events .events__subtitle {
+    color: white;
+    font-family: GamesDaymariusv2;
+    font-size: 11.2rem;
+    font-weight: 400;
+    line-height: 10.4rem;
+    padding: 4.6rem 0;
+  }
+  .events .events__text {
+    color: white;
+    font-family: Akrobat;
+    font-size: 9.2rem;
+    font-weight: 500;
+    line-height: 10.4rem;
+  }
+  .events .events__btn {
+    margin-top: 4.6rem;
+  }
+  .events .events__img {
+    width: 100%;
+    height: 88.8rem;
+    object-fit: cover;
+  }
+  .about {
+    height: 80rem;
+    position: relative;
+    margin-bottom: 0.6rem;
+  }
+  .about .about__title {
+    color: white;
+    font-family: GamesDaymariusv2;
+    font-size: 12.8rem;
+    font-weight: 400;
+    line-height: 6.4rem;
+    position: absolute;
+    top: 15.8rem;
+    left: auto;
+    right: 4.6rem;
+  }
+  .about .about__btn {
+    position: absolute;
+    top: auto;
+    left: 3.4rem;
+    bottom: 3.8rem;
+  }
+  .blog {
+    height: 80rem;
+    margin-bottom: 0.6rem;
+  }
+  .blog .blog__title {
+    color: white;
+    font-family: GamesDaymariusv2;
+    font-size: 12.8rem;
+    font-weight: 400;
+    line-height: 6.4rem;
+    position: absolute;
+    top: 11.4rem;
+    right: 8.4rem;
+    left: auto;
+  }
+  .blog .blog__btn {
+    position: absolute;
+    top: auto;
+    left: 3.4rem;
+    bottom: 3.8rem;
+  }
+  .contacts {
+    min-height: 260rem;
+    background-color: #f4b83e;
+    padding-top: 10.3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .contacts .contacts__info {
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.2rem;
+    padding-bottom: 8rem;
+  }
+  .contacts .contacts__title {
+    font-family: GamesDaymariusv2;
+    font-size: 20.8rem;
+    font-weight: 400;
+    line-height: 12.4rem;
+    padding-bottom: 16rem;
+    text-align: center;
+  }
+  .contacts .info-item {
+    font-family: Akrobat;
+    font-size: 10.4rem;
+    font-weight: 500;
+    line-height: 12.8rem;
+    padding-left: 6rem;
+  }
+  .contacts .info-item a img {
+    width: 10rem;
+    height: 10rem;
+    margin-right: 5rem;
+  }
+  .contacts .info-item a .grey_text {
+    font-family: Akrobat;
+    font-size: 9.2rem;
+    font-weight: 400;
+    color: #121212;
+    line-height: 10.8rem;
+    padding-top: 3.2rem;
+    padding-left: 18rem;
+  }
+  .contacts .info-item {
+    padding-bottom: 6.6rem;
+  }
+  .contacts .contacts__form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contacts .contacts__form-title {
+    font-family: CAT Stack;
+    font-size: 10.4rem;
+    font-weight: 400;
+    line-height: 12.8rem;
+    padding-bottom: 6rem;
+    text-align: center;
+  }
+  .contacts label .form-item {
+    display: flex;
+    font-family: Akrobat;
+    font-size: 5.4rem;
+    font-weight: 700;
+    color: #121212;
+    line-height: 4rem;
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 6rem;
+  }
+  .contacts label .form-item .form-item__icon {
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-radius: 0.6rem 0 0 0.6rem;
+    background-color: #F8F8F8;
+    width: 16rem;
+    height: 16rem;
+    padding: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contacts label .form-item .form-item__icon div {
+    padding-left: 1rem;
+    width: 100%;
+    display: none;
+  }
+  .contacts label .form-item .form-item__icon img {
+    height: 5rem;
+    width: 5rem;
+    position: relative;
+    left: auto;
+  }
+  .contacts label .form-item input {
+    width: 110rem;
+    padding: 4rem;
+    border: 0.1rem solid lightgray;
+    border-radius: 0 0.6rem 0.6rem 0;
+  }
+  .contacts label .form-item .grey-pencil {
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+  }
+  .contacts .contacts__form-btn {
+    margin-top: 4rem;
+  }
+  .google-map {
+    height: 109.2rem;
+    background-color: greenyellow;
   }
 }

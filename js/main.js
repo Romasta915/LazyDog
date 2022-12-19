@@ -9,5 +9,5 @@ burgerOpen.addEventListener('click', () => {
 
 burgerClose.addEventListener('click', () => {
     mobileNav.style.transition = 'all 0.5s'
-    mobileNav.style.transform = 'translateX(60rem)'
+    mobileNav.style.transform = 'translateX(85rem)'
 }) 

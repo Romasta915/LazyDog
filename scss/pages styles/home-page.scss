@@ -44,7 +44,7 @@ $identation_btwSection: 0.3rem;
     margin-bottom: $identation_btwSection;
 
     .reserve__bg {
-        height: 74rem;
+        height: 100%;
         width: 100%;
         object-fit: cover;
     }
@@ -209,7 +209,7 @@ $identation_btwSection: 0.3rem;
         left: 6rem;
     }
 
-    .events__btn {
+    .about__btn {
         position: absolute;
         top: 17.4rem;
         left: 6rem;

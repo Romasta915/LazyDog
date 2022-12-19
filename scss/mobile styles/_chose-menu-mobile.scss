@@ -1,12 +1,46 @@
 @media (max-width: 375px) {
 
-    $identation_btwSection: 0.3rem;
+    $identation_btwSection: 0.6rem;
 
-    // html {
-    //     font-size: 1.2vw;
-    // }
+    .choose {
+        display: flex;
+        flex-direction: column;
+    }
 
-    
-    
+    .kitchen {
+        width: 100%;
+        height: 108rem;
+        position: relative;
+        padding-bottom: 2rem;
+
+        img {
+            object-fit: cover;
+        }
+
+        .kitchen__btn {
+            position: absolute;
+            bottom: 6rem;
+            left: 6rem;
+        }
+    }
+
+    .bar {
+        width: 100%;
+        height: 108rem;
+        position: relative;
+
+        img {
+            object-fit: cover;
+        }
+
+        .bar__btn {
+            position: absolute;
+            bottom: 6rem;
+            left: 6rem;
+        }
+    }
+
+
+
 
 }

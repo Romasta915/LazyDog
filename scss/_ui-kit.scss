@@ -2,21 +2,19 @@
 
 .btn {
     @include settingFonts(GamesDaymariusv2, 3.2rem, 400);
-    line-height: 3.2rem;
-    padding-top: 1.5rem;
-    padding-right: 3rem;
-    padding-bottom: 1.5rem;
-    padding-left: 3rem;
+    line-height: 4.2rem;
+    // padding-top: 1.5rem;
+    // padding-right: 3rem;
+    // padding-bottom: 1.5rem;
+    // padding-left: 3rem;
+    padding: 0.6em;
 }
 
 @media(max-width: 375px) {
     .btn {
-        @include settingFonts(GamesDaymariusv2, 6.4rem, 400);
-        line-height: 6.4rem;
-        padding-top: 3rem;
-        padding-right: 6rem;
-        padding-bottom: 3rem;
-        padding-left: 6rem;
+        @include settingFonts(GamesDaymariusv2, 8.4rem, 400);
+        line-height: 10rem;
+        padding: 0.4em;
     }
 }
 
