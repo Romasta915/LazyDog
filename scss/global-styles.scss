@@ -106,14 +106,13 @@ body {
             height: 25.9rem;
             display: flex;
             flex-wrap: wrap;
-            align-items: center;
 
             .footer__nav-item {
                 width: 33%;
                 @include settingFonts(Akrobat, 2.4rem, 500);
                 line-height: 2.4rem;
                 color: #A06937;
-                text-align: center;
+                text-align: left;
             }
         }
 
@@ -268,6 +267,7 @@ body {
                     @include settingFonts(Akrobat, 8rem, 500);
                     line-height: 10rem;
                     color: #A06937;
+                    text-align: center;
                 }
             }
 

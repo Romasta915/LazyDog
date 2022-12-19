@@ -282,7 +282,6 @@ body {
   height: 25.9rem;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
 }
 .footer .footer__info .footer__nav .footer__nav-item {
   width: 33%;
@@ -291,7 +290,7 @@ body {
   font-weight: 500;
   line-height: 2.4rem;
   color: #A06937;
-  text-align: center;
+  text-align: left;
 }
 .footer .footer__info .footer__shedule {
   width: 30%;
@@ -435,6 +434,7 @@ body {
     font-weight: 500;
     line-height: 10rem;
     color: #A06937;
+    text-align: center;
   }
   .footer .footer__info .footer__shedule {
     width: 100%;
