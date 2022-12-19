@@ -21,6 +21,12 @@
         width: 33%;
         padding: 1rem 1rem 5rem 1rem ;
 
+        img {
+            height: 30rem;
+            width: 100%;
+            object-fit: cover;
+        } 
+
         .text_wrap {
             padding: 0 1.6rem;
             display: flex;
@@ -53,3 +59,5 @@
         padding: 7rem 0 8rem 0;
     }
 }
+
+@import '../mobile styles/_blog-page-mobile';

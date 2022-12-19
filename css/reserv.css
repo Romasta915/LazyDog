@@ -75,3 +75,82 @@ label .form-item .grey-pencil {
   height: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 375px) {
+  .page-reserv {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .reserv-form {
+    width: 100%;
+    display: flex;
+  }
+  .reserv-form .reserv__form-title {
+    font-family: CAT Stack;
+    font-size: 12rem;
+    font-weight: 400;
+    line-height: 20rem;
+    padding: 9rem 0;
+    text-align: center;
+  }
+  .reserv-form label .form-item {
+    display: flex;
+    font-family: Akrobat;
+    font-size: 5.4rem;
+    font-weight: 700;
+    color: #121212;
+    line-height: 4rem;
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 6rem;
+  }
+  .reserv-form label .form-item .form-item__icon {
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-radius: 0.6rem 0 0 0.6rem;
+    background-color: #F8F8F8;
+    width: 16rem;
+    height: 16rem;
+    padding: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .reserv-form label .form-item .form-item__icon div {
+    padding-left: 1rem;
+    width: 100%;
+    display: none;
+  }
+  .reserv-form label .form-item .form-item__icon img {
+    height: 5rem;
+    width: 5rem;
+    position: relative;
+    left: auto;
+  }
+  .reserv-form label .form-item input {
+    width: 110rem;
+    padding: 4rem;
+    border: 0.1rem solid lightgray;
+    border-radius: 0 0.6rem 0.6rem 0;
+  }
+  .reserv-form label .form-item .grey-pencil {
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+  }
+  .reserv-form .contacts__form-btn {
+    margin: 10rem 0;
+  }
+  .page-reserv_img {
+    height: 90rem;
+    width: 100%;
+  }
+  .page-reserv_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

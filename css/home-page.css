@@ -115,8 +115,9 @@
   line-height: 6.8rem;
   position: absolute;
   top: 15rem;
-  right: 21.9rem;
+  right: 16rem;
   letter-spacing: 0.2rem;
+  width: 20rem;
 }
 .guests .guests__btn {
   position: absolute;
@@ -436,6 +437,7 @@
     position: absolute;
     top: 11.4rem;
     right: 4.8rem;
+    width: 60rem;
   }
   .guests .guests__btn {
     position: absolute;

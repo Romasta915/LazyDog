@@ -1,0 +1,99 @@
+@import '../mixins';
+
+@media(max-width: 375px) {
+
+    .bar-menu {
+        letter-spacing: 00.4rem;
+    }
+
+    .bar-menu__bg {
+        height: 108rem;
+        position: relative;
+
+        img {
+            object-fit: cover;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+        }
+    }
+
+    .bg-title {
+        position: absolute;
+        bottom: 1.8rem;
+        left: 4.5rem;
+        @include settingFonts(CAT Stack, 25.4rem, 400);
+        line-height: 25.4rem;
+        z-index: 1;
+    }
+
+    .menu__title {
+        padding: 10rem 0 14rem 0;
+        text-align: center;
+        @include settingFonts(CAT Stack, 15rem, 400);
+        line-height: 15rem;
+    }
+
+    .menu__content {
+        display: flex;
+        flex-direction: column;
+        padding: 0 6.3rem;
+    }
+
+    .chose-category {
+        width: 100%;
+
+        .category-item {
+            @include settingFonts(Akrobat, 9rem, 700);
+            line-height: 10rem;
+        }
+
+        .category-item:not(:last-child) {
+            margin-bottom: 4rem;
+        }
+
+        .category-item_active {
+            color: #603916;
+        }
+    }
+
+    .current-dishes {
+        width: 100%;
+        padding: 10rem 0 0 0;
+
+        .dish {
+            padding-bottom: 4rem;
+            display: flex;
+            // background-color: yellow;
+            width: 100%;
+        }
+
+        // .dish-text {}
+
+        .dish-title {
+            @include settingFonts(Akrobat, 9rem, 600);
+            line-height: 10rem;
+            letter-spacing: 00.2rem;
+        }
+
+        .dish-description {
+            @include settingFonts(Akrobat, 7rem, 500);
+            line-height: 8rem;
+        }
+
+        .dish-weight {
+            padding: 0 3rem;
+            @include settingFonts(Akrobat, 4rem, 400);
+            line-height: 5rem;
+            letter-spacing: 00.2rem;
+        }
+
+        .dish-price {
+            padding: 0 3rem;
+            @include settingFonts(Akrobat, 4rem, 500);
+            line-height: 5rem;
+            letter-spacing: 00.2rem;
+        }
+    }
+
+
+
+}

@@ -1,0 +1,92 @@
+@import '../mixins';
+
+@media(max-width: 375px) {
+
+    .oneBlog-page {
+    
+        .oneBlog-page__title {
+            text-align: center;
+            @include settingFonts(CAT Stack, 13rem, 400);
+            line-height: 15rem;
+            padding-bottom: 4rem;
+            letter-spacing: 00.2rem;
+            padding: 10rem 0 8rem 0;
+        }
+    
+        .oneBlog-page__img {
+            width: 100%;
+            height: 60rem;
+            padding: 10rem 0;
+        }
+    
+        .back-img {
+            position: absolute;
+            width: 7rem;
+            height: 7rem;
+            top: 73rem;
+            left: 5rem;
+            cursor: pointer;
+        }
+    
+        .oneBlog-page__content {
+            padding: 0 3.4rem;
+    
+            .firstParagraph {
+                @include settingFonts(Akrobat, 7rem, 600);
+                line-height: 9rem;
+            }
+    
+            img {
+                height: 64rem;
+                width: 100%;
+                object-fit: cover;
+            }
+    
+            .text {
+                @include settingFonts(Akrobat, 6rem, 500);
+                line-height: 7rem;
+            }
+    
+            .two-img {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+
+                img {
+                    width: 100%;
+                    height: 170rem;
+                }
+
+                img:nth-child(1) {
+                    margin-bottom: 3rem;
+                }
+            }
+    
+            .share-cont {
+                padding-top: 20rem;
+                @include settingFonts(CAT Stack, 12rem, 400);
+                line-height: 13rem;
+                text-align: center;
+    
+                div {
+                    margin: 5rem 0;
+                    display: flex;
+                    justify-content: center;
+    
+                    img {
+                        width: 10rem;
+                        height: 10rem;
+                        object-fit: contain;
+                        cursor: pointer;
+                    }
+    
+                    img:not(:last-child) {
+                        margin-right: 9rem;
+                    }
+                }
+            }
+        }
+    
+    }
+
+}

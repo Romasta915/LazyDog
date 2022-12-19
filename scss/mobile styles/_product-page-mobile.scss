@@ -1,0 +1,167 @@
+@import '../mixins';
+
+@media(max-width:375px) {
+
+    .product-page {
+        padding-bottom: 0;
+
+        img {
+            width: 5rem;
+            height: 5rem;
+        }
+
+        .back-cont {
+            position: relative;
+            height: 3.5rem;
+            width: 100%;
+
+            img {
+                height: 1.4rem;
+                width: 0.7rem;
+                position: absolute;
+                top: 0;
+                left: 6rem;
+                object-fit: cover;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .product-content {
+        padding: 0 17.4rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        .product__images {
+            width: 100%;
+            padding-right: 4rem;
+
+            .main-img_cont {
+                position: relative;
+
+                .main__img {
+                    width: 110rem;
+                    height: 110rem;
+                    object-fit: cover;
+                }
+
+                .arrow {
+                    width: 10rem;
+                    height: 10rem;
+                    position: absolute;
+                    cursor: pointer;
+                }
+
+                .arrow-back {
+                    top: 55rem;
+                    left: 0;
+                }
+
+                .arrow-forward {
+                    top: 55rem;
+                    right: 0;
+                    transform: rotate(180deg);
+                }
+            }
+
+
+            .more-img {
+                display: flex;
+                flex-wrap: wrap;
+
+                .item {
+                    width: 31rem;
+                    height: 31rem;
+                    margin: 2rem;
+                }
+
+            }
+        }
+
+        .product__info {
+            width: 100%;
+            padding-top: 10rem;
+
+            .product-title {
+                @include settingFonts(CAT Stack, 8rem, 400);
+                line-height: 10rem;
+                letter-spacing: 00.4rem;
+                padding-bottom: 5rem;
+            }
+
+            .product-price {
+                @include settingFonts(Akrobat, 6rem, 600);
+                line-height: 8rem;
+                padding-bottom: 3rem;
+            }
+
+            .product-chooses {
+
+                .buttons {
+                    display: flex;
+                    padding-bottom: 0;
+
+                    .btn {
+                        background-color: white;
+                        border: .1rem solid black;
+                        @include settingFonts(Akrobat, 5rem, 600);
+                        line-height: 3rem;
+                        padding: 4rem;
+                        cursor: pointer;
+                    }
+
+                    .btn:not(:last-child) {
+                        margin-right: 3rem;
+                    }
+
+                    .active-btn {
+                        background-color: black;
+                        color: white;
+                    }
+                }
+
+                .title-color {
+                    @include settingFonts(Akrobat, 4rem, 600);
+                    line-height: 6rem;
+                    padding-bottom: 2rem;
+                    color: #121212BF;
+                }
+
+                .title-size {
+                    position: relative;
+                    padding: 4rem 0 1rem 0;
+                    @include settingFonts(Akrobat, 4rem, 600);
+                    line-height: 6rem;
+                    color: #121212BF;
+
+                    span {
+                        @include settingFonts(Akrobat, 3rem, 600);
+                        line-height: 6rem;
+                        color: #121212BF;
+                        text-decoration: underline;
+                        position: absolute;
+                        top: 1rem;
+                        right: 0;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .product-text {
+                @include settingFonts(Akrobat, 6rem, 500);
+                line-height: 8rem;
+                padding-top: 10rem;
+                padding-bottom: 0;
+            }
+        }
+    }
+
+    .btn-cont {
+        padding: 20rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

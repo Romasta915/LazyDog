@@ -1,0 +1,93 @@
+@import '../mixins';
+
+@media (max-width: 375px) {
+
+    .merch-page {
+
+        .merch-page_title {
+            padding-top: 5rem;
+            padding-bottom: 10rem;
+            position: relative;
+
+            .search-input_cont {
+                // position: absolute;
+                left: 11.5rem;
+                top: 6rem;
+
+                .search-input {
+                    border: 0.1rem solid lightgray;
+                    @include settingFonts(Akrobat, 2.4rem, 700);
+                    line-height: 3.2rem;
+                    padding: 1rem;
+                    width: 27.5rem;
+                    border-radius: 0.3rem;
+                    display: none;
+                }
+
+            }
+            
+            .search-icon {
+                position: absolute;
+                right: auto;
+                left: 110rem;
+                top: 1rem;
+                width: 5rem;
+                height: 5rem;
+                cursor: pointer;
+            }
+
+            .title {
+                @include settingFonts(CAT Stack, 12.4rem, 400);
+                line-height: 15.4rem;
+                text-align: center;
+            }
+
+            .cart {
+                position: absolute;
+                right: 6.4rem;
+                top: 7rem;
+
+                img {
+                    width: 5rem;
+                    height: 5rem;
+                }
+            }
+        }
+
+        .goods {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 7rem 8.5rem 7rem;
+
+            img {
+                width: 110rem;
+                height: 110rem;
+            }
+
+            .product {
+                text-align: center;
+                width: 100%;
+                padding-bottom: 16rem;
+
+                .title {
+                    @include settingFonts(Akrobat, 8rem, 500);
+                    line-height: 10rem;
+                }
+
+                .price {
+                    @include settingFonts(Akrobat, 7rem, 700);
+                    line-height: 9rem;
+                }
+            }
+        }
+
+        .btn-cont {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 8rem 0 12rem 0;
+        }
+    }
+
+}

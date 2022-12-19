@@ -209,10 +209,6 @@ body {
   font-size: 3rem;
 }
 
-.container {
-  margin: 0 auto;
-}
-
 .header {
   background-color: white;
   height: 12.8rem;
@@ -295,6 +291,7 @@ body {
   font-weight: 500;
   line-height: 2.4rem;
   color: #A06937;
+  text-align: center;
 }
 .footer .footer__info .footer__shedule {
   width: 30%;

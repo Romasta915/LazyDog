@@ -37,26 +37,23 @@
   height: 52.4rem;
   object-fit: cover;
 }
-.product-content .product__images .main-img_cont .arrow-back {
+.product-content .product__images .main-img_cont .arrow {
   width: 4.8rem;
   height: 4.8rem;
   position: absolute;
-  top: 25rem;
-  left: 0;
   cursor: pointer;
 }
+.product-content .product__images .main-img_cont .arrow-back {
+  top: 25rem;
+  left: 0;
+}
 .product-content .product__images .main-img_cont .arrow-forward {
-  width: 4.8rem;
-  height: 4.8rem;
-  position: absolute;
   top: 25rem;
   right: 0;
   transform: rotate(180deg);
-  cursor: pointer;
 }
 .product-content .product__images .more-img {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
 }
 .product-content .product__images .more-img .item {
@@ -140,4 +137,153 @@
   font-weight: 500;
   line-height: 2.8rem;
   padding-bottom: 3.3rem;
+}
+
+@media (max-width: 375px) {
+  .product-page {
+    padding-bottom: 0;
+  }
+  .product-page img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .product-page .back-cont {
+    position: relative;
+    height: 3.5rem;
+    width: 100%;
+  }
+  .product-page .back-cont img {
+    height: 1.4rem;
+    width: 0.7rem;
+    position: absolute;
+    top: 0;
+    left: 6rem;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .product-content {
+    padding: 0 17.4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .product-content .product__images {
+    width: 100%;
+    padding-right: 4rem;
+  }
+  .product-content .product__images .main-img_cont {
+    position: relative;
+  }
+  .product-content .product__images .main-img_cont .main__img {
+    width: 110rem;
+    height: 110rem;
+    object-fit: cover;
+  }
+  .product-content .product__images .main-img_cont .arrow {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    cursor: pointer;
+  }
+  .product-content .product__images .main-img_cont .arrow-back {
+    top: 55rem;
+    left: 0;
+  }
+  .product-content .product__images .main-img_cont .arrow-forward {
+    top: 55rem;
+    right: 0;
+    transform: rotate(180deg);
+  }
+  .product-content .product__images .more-img {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product-content .product__images .more-img .item {
+    width: 31rem;
+    height: 31rem;
+    margin: 2rem;
+  }
+  .product-content .product__info {
+    width: 100%;
+    padding-top: 10rem;
+  }
+  .product-content .product__info .product-title {
+    font-family: CAT Stack;
+    font-size: 8rem;
+    font-weight: 400;
+    line-height: 10rem;
+    letter-spacing: 0.4rem;
+    padding-bottom: 5rem;
+  }
+  .product-content .product__info .product-price {
+    font-family: Akrobat;
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 8rem;
+    padding-bottom: 3rem;
+  }
+  .product-content .product__info .product-chooses .buttons {
+    display: flex;
+    padding-bottom: 0;
+  }
+  .product-content .product__info .product-chooses .buttons .btn {
+    background-color: white;
+    border: 0.1rem solid black;
+    font-family: Akrobat;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 3rem;
+    padding: 4rem;
+    cursor: pointer;
+  }
+  .product-content .product__info .product-chooses .buttons .btn:not(:last-child) {
+    margin-right: 3rem;
+  }
+  .product-content .product__info .product-chooses .buttons .active-btn {
+    background-color: black;
+    color: white;
+  }
+  .product-content .product__info .product-chooses .title-color {
+    font-family: Akrobat;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 6rem;
+    padding-bottom: 2rem;
+    color: rgba(18, 18, 18, 0.7490196078);
+  }
+  .product-content .product__info .product-chooses .title-size {
+    position: relative;
+    padding: 4rem 0 1rem 0;
+    font-family: Akrobat;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 6rem;
+    color: rgba(18, 18, 18, 0.7490196078);
+  }
+  .product-content .product__info .product-chooses .title-size span {
+    font-family: Akrobat;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 6rem;
+    color: rgba(18, 18, 18, 0.7490196078);
+    text-decoration: underline;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    cursor: pointer;
+  }
+  .product-content .product__info .product-text {
+    font-family: Akrobat;
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 8rem;
+    padding-top: 10rem;
+    padding-bottom: 0;
+  }
+  .btn-cont {
+    padding: 20rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

@@ -18,7 +18,7 @@
   width: 27.5rem;
   border-radius: 0.3rem;
 }
-.merch-page .merch-page_title .search-input_cont img {
+.merch-page .merch-page_title .search-icon {
   position: absolute;
   right: 1rem;
   top: 1.5rem;
@@ -65,7 +65,7 @@
 .merch-page .goods .product .price {
   font-family: Akrobat;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 2.7rem;
 }
 .merch-page .btn-cont {
@@ -74,4 +74,85 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 6.2rem;
+}
+
+@media (max-width: 375px) {
+  .merch-page .merch-page_title {
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    position: relative;
+  }
+  .merch-page .merch-page_title .search-input_cont {
+    left: 11.5rem;
+    top: 6rem;
+  }
+  .merch-page .merch-page_title .search-input_cont .search-input {
+    border: 0.1rem solid lightgray;
+    font-family: Akrobat;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+    padding: 1rem;
+    width: 27.5rem;
+    border-radius: 0.3rem;
+    display: none;
+  }
+  .merch-page .merch-page_title .search-icon {
+    position: absolute;
+    right: auto;
+    left: 110rem;
+    top: 1rem;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+  }
+  .merch-page .merch-page_title .title {
+    font-family: CAT Stack;
+    font-size: 12.4rem;
+    font-weight: 400;
+    line-height: 15.4rem;
+    text-align: center;
+  }
+  .merch-page .merch-page_title .cart {
+    position: absolute;
+    right: 6.4rem;
+    top: 7rem;
+  }
+  .merch-page .merch-page_title .cart img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .merch-page .goods {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 7rem 8.5rem 7rem;
+  }
+  .merch-page .goods img {
+    width: 110rem;
+    height: 110rem;
+  }
+  .merch-page .goods .product {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 16rem;
+  }
+  .merch-page .goods .product .title {
+    font-family: Akrobat;
+    font-size: 8rem;
+    font-weight: 500;
+    line-height: 10rem;
+  }
+  .merch-page .goods .product .price {
+    font-family: Akrobat;
+    font-size: 7rem;
+    font-weight: 700;
+    line-height: 9rem;
+  }
+  .merch-page .btn-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 0 12rem 0;
+  }
 }

@@ -1,3 +1,5 @@
+@import '../mixins';
+
 @media (max-width: 375px) {
 
     $identation_btwSection: 0.6rem;
@@ -39,8 +41,4 @@
             left: 6rem;
         }
     }
-
-
-
-
 }

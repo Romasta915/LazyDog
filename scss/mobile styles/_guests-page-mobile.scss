@@ -1,0 +1,53 @@
+@import '../mixins';
+
+@media(max-width:375px) {
+
+    .guests-page {
+
+        .guests-page__title {
+            text-align: center;
+            @include settingFonts(CAT Stack, 14rem, 400);
+            line-height: 16rem;
+            padding: 8rem 0;
+        }
+
+        .images {
+            padding: 0;
+
+            .guest-image {
+                object-fit: cover;
+            }
+
+            .guest-image:is(:nth-child(1), :nth-child(2), :nth-child(8)) {
+                width: 100%;
+                height: 200rem;
+            }
+
+            .guest-image:is( :nth-child(4)) {
+                width: 100%;
+                height: 80rem;
+            }
+
+            .guest-image:is( :nth-child(6)) {
+                width: 100%;
+                height: 160rem;
+            }
+
+            .guest-image:is( :nth-child(7)) {
+                width: 100%;
+                height: 250rem;
+            }
+
+            .guest-image:is(:nth-child(5), :nth-child(3)) {
+                display: none;
+            }
+        }
+
+        .btn-cont {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14rem 0 16rem 0;
+        }
+    }
+}

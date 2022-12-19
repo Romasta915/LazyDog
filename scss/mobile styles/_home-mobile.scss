@@ -1,3 +1,5 @@
+@import '../mixins';
+
 @media (max-width: 375px) {
 
     $identation_btwSection: 0.6rem;
@@ -103,6 +105,7 @@
             position: absolute;
             top: 5.7rem * 2;
             right: 2.4rem * 2;
+            width: 60rem;
         }
 
         .guests__btn {

@@ -21,14 +21,15 @@
                 border-radius: 0.3rem;
             }
 
-            img {
-                position: absolute;
-                right: 1rem;
-                top: 1.5rem;
-                width: 2.5rem;
-                height: 2.5rem;
-                cursor: pointer;
-            }
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 1rem;
+            top: 1.5rem;
+            width: 2.5rem;
+            height: 2.5rem;
+            cursor: pointer;
         }
 
         .title {
@@ -70,7 +71,7 @@
             }
 
             .price {
-                @include settingFonts(Akrobat, 1.8rem, 500);
+                @include settingFonts(Akrobat, 1.8rem, 700);
                 line-height: 2.7rem;
             }
         }
@@ -84,3 +85,5 @@
         padding-bottom: 6.2rem;
     }
 }
+
+@import '../mobile styles/merch-mobile';
